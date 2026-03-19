@@ -15,7 +15,7 @@ from google import genai
 from yt_dlp import YoutubeDL
 
 # ---------------- Gemini API Key ----------------
-os.environ["GEMINI_API_KEY"] = "AIzaSyAFLt-L1SwdJMGBj4Px7PjaPWugsLvwIwA"
+os.environ["GEMINI_API_KEY"] = "your api key"
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 # ---------------- NLTK ----------------
