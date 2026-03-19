@@ -1,0 +1,29 @@
+# Node
+node_modules/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Project folders
+backend/uploads/
+backend/downloads/
+backend/indexes/
+
+# Media files
+*.mp4
+*.mkv
+*.wav
+
+# Build
+build/
+dist/
+
+# Env
+.env
+.env.local
+
+# Logs
+*.log
